@@ -1,5 +1,6 @@
 import port from "../../assets/port.jpg"
 import chat from "../../assets/chat.png"
+import shopping from "../../assets/shoppingCart.png"
 export const data=[
     {
         id:1,
@@ -17,10 +18,10 @@ export const data=[
     },
     {
         id:3,
-        name:"React JS Application",
-        image:"",
-        github:"",
-        live:"",
+        name:"Shopping Cart",
+        image:shopping,
+        github:"https://github.com/JavDaGreat/ShoppingCart",
+        live:"https://shopping-cart-one-sigma.vercel.app/",
     },
 
  
