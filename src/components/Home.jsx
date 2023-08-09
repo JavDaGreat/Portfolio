@@ -10,10 +10,11 @@ const Home = () => {
           Javad Sultani
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-          I'm a Front End Developer.
+          I'm a Front End Developer Student.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m a Front-End developer specializing in building responsive websites 
+
+This autumn, I am looking for an internship that not only provides valuable experience but also offers me a platform to learn and grow. 
         </p>
         <div>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#C778DD] hover:border-[#C778DD]'>
