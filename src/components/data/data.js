@@ -11,7 +11,7 @@ export const data=[
     },
     {
         id:2,
-        name:"React+ firebase chatApp",
+        name:"chatApp",
         image:chat,
         github:"https://github.com/JavDaGreat/ChattApp",
         live:"https://chatt-app-95383.web.app/",
