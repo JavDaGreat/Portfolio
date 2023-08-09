@@ -25,7 +25,6 @@ const Navbar = () => {
         <img src={Logo} alt='Logo Image'  className="contains h-[80px] w-36" />
       </div>
 
-      {/* menu */}
       <ul className='hidden md:flex ' >
         <li className= ' hover:text-[#C778DD] font-bold'>
           <Link to='home' smooth={true} duration={500}>
@@ -54,12 +53,10 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Hamburger */}
       <div onClick={handleClick} className='md:hidden z-10'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
-      {/* Mobile menu */}
       <ul
         className={
           !nav
@@ -98,8 +95,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Social icons */}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+      <div className='hidden md:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a target='_blank'
