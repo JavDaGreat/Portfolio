@@ -26,7 +26,7 @@ const Work = () => {
               flex justify-center text-center items-center mx-auto content-center border-2 "
   >
     <div className="opacity-0 group-hover:opacity-100 ">
-      <span className="text-2xl font-bold text-white tracking-wider bg-black px-2">
+      <span className="text-2xl font-bold text-white tracking-wider bg-black px-2 py-2">
         {item.name}
       </span>
       <div className="pt-8 text-center ">
